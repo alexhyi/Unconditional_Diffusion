@@ -3,19 +3,9 @@ An artifact to my self study of Diffusion Models and Flow Matching for Generativ
 
 ## Goal
 
-I've already mapped the conceptual landscape of visual generative AI (autoencoders → VAEs → U-Nets → DDPMs → transformers → DiTs → video). This repo is about going from *"I followed the paper"* to *"I can re-derive it from a blank page and make it converge in code."*
+I've already mapped the conceptual landscape of visual generative AI (autoencoders → VAEs → U-Nets → DDPMs → transformers → DiTs → video). This repo is about going from *"I followed the paper"* to *"I can re-derive it from a blank page and make it converge in code"*, focusing at load-bearing points decribed below.  
 
-The focus is depth at the load-bearing points, working toward my real interest: **controllable, human-in-the-loop generation** — keeping the artist's intent while the model does the laborious work.
-
-**Keystone idea:** noise-prediction (ε), score (∇ log p), clean-data (x₀), and velocity (v) prediction are the same model under reparameterization. Owning that equivalence is owning DDPM.
-
-## How I'm working
-
-Two modes for every topic:
-- **Derive** — work it out by hand in a derivations notebook. No "it can be shown."
-- **Build** — implement the smallest version that proves it works.
-
-The loop: intuition → derive → code → read the original paper. One concept at a time. Math lets you fool yourself; code doesn't.
+My real interest: **controllable, human-in-the-loop generation** — keeping the artist's intent while the model does the laborious work.
 
 ## Roadmap
 
@@ -37,14 +27,7 @@ roadmap.md      # the full plan with gates
 ```
 
 ## Progress
-
-- [ ] Phase 0 — prerequisites
-- [ ] Phase 1 — DDPM from scratch
-- [ ] Phase 1.5 — guidance & samplers
-- [ ] Phase 2 — flow matching
-- [ ] Phase 3 — DiT & controllable generation
-
-*(Updated as I go.)*
+*(Update as I go)*
 
 ## Key resources
 
