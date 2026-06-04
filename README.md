@@ -1,11 +1,6 @@
 # Diffusion_and_Flow_Matching
 An artifact to my self study of Diffusion Models and Flow Matching for Generative Models
 
-
-# Diffusion & Flow Matching
-
-A learning journey from the math of diffusion models to controllable, stylized generation.
-
 ## Goal
 
 I've already mapped the conceptual landscape of visual generative AI (autoencoders → VAEs → U-Nets → DDPMs → transformers → DiTs → video). This repo is about going from *"I followed the paper"* to *"I can re-derive it from a blank page and make it converge in code."*
